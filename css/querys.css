@@ -1,0 +1,74 @@
+/*
+*
+    By:- AbdElRahman Ahmad
+    FB:- fb.com/AbdElRahman.IO
+    	 fb.com/AbdElRahman.IO.page
+    in:- eg.linkedin.com/in/AbdElRahmanIO
+*
+*/
+
+/*==========  Mobile First Method  ==========*/
+
+   /* Custom, iPhone Retina */
+   @media only screen and (min-width : 320px) {
+
+   }
+
+   /* Extra Small Devices, Phones */
+   @media only screen and (min-width : 480px) {
+   }
+
+   /* Small Devices, Tablets */
+   @media only screen and (min-width : 768px) {
+   }
+
+   /* Medium Devices, Desktops */
+   @media only screen and (min-width : 992px) {
+
+   }
+
+   /* Large Devices, Wide Screens */
+   @media only screen and (min-width : 1200px) {
+
+   }
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+  .timeline h2::before {left: -3%;}
+  .timeline::before {left: 30.4%;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  .timeline h2::before {left: -4.5%;}
+  .timeline::before {left: 29.1%;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  .timeline strong {color: inherit;}
+  .timeline::before {left: 29.8%;}
+  .timeline h2::before {left: -3.9%;}
+}
+
+/* custom size for phones */
+@media only screen and (max-width : 580px) {
+  .timeline > .row {margin-bottom: 30px;}
+  .timeline .row > div {width: 100%!important;margin: 0;padding-left: 50px;}
+  .timeline {padding-left: 15px;}
+  .timeline::before {left: 28px;}
+  .timeline h2::before {left: 24px;}
+  .headofexp div {left: 5px;}
+  .headofexp h1 {padding-left: 10px;}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+}

@@ -2,6 +2,8 @@
 
 body {font-family: 'Ubuntu', sans-serif;color: #303440;}
 .leftbar {position: absolute;width: 100%;height: 100VH;background-color: #303440;left: 0;}
+
+/*rightcont*/
 .rightcont h1 {text-transform: capitalize;margin-bottom: 0;}
 .rightcont b {display: block;text-transform: capitalize;margin-bottom: 7px;}
 .rightcont > b {font-size: 17px;text-transform: uppercase;margin-bottom: 20px;color: #777777;}
@@ -9,3 +11,14 @@ body {font-family: 'Ubuntu', sans-serif;color: #303440;}
 .rightcont b span {font-weight: normal;text-transform: uppercase;letter-spacing: 0.2px;}
 .rightcont b i {background: #303440; border-radius: 50%; padding: 4px 4px; color: white; text-align: center; width: 20px; height: 20px;font-weight: normal;}
 .rightcont p {font-size: 20px;text-transform: capitalize;margin-bottom: 5px;}
+
+/*timeline*/
+.timeline::before {content: " ";position: absolute;width: 3px;height: 100%;left: 23.4%;top: 0;background: #303440;}
+.timeline > .row {margin-bottom: 20px;}
+.headofexp div {position: absolute;left: -37px;width: 50px;height: 50px;background: #303440;text-align: center;border-radius: 50%;color: white;padding: 7px; font-size: 28px;}
+.headofexp h1 {margin-top: 6px;}
+.timeline h2 {margin: 0;font-size: 20px;text-transform: capitalize;}
+.timeline h2::before {content: " ";position: absolute;width: 10px;height: 10px;background: #303440;border-radius: 50%;left: -2.6%;top: 5px;}
+.timeline h2 i {font-size: 12px;}
+.timeline span {text-decoration: underline;}
+.timeline strong {font-weight: normal;text-transform: uppercase;}

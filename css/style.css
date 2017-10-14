@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body {font-family: 'Ubuntu', sans-serif;color: #303440;}
+.leftbar {position: absolute;width: 100%;height: 100VH;background-color: #303440;left: 0;}
+.rightcont h1 {text-transform: capitalize;margin-bottom: 0;}
+.rightcont b {display: block;text-transform: capitalize;margin-bottom: 7px;}
+.rightcont > b {font-size: 17px;text-transform: uppercase;margin-bottom: 20px;color: #777777;}
+.rightcont b a {color: inherit;text-decoration: none;}
+.rightcont b span {font-weight: normal;text-transform: uppercase;letter-spacing: 0.2px;}
+.rightcont b i {background: #303440; border-radius: 50%; padding: 4px 4px; color: white; text-align: center; width: 20px; height: 20px;font-weight: normal;}
+.rightcont p {font-size: 20px;text-transform: capitalize;margin-bottom: 5px;}
